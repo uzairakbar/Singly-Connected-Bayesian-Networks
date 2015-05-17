@@ -1,0 +1,43 @@
+﻿Build started 04-Jan-15 1:23:57 AM.
+     1>Project "D:\Artificial Intelligence\Bayesian Networks\Bayesian Networks\Bayesian Networks.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\vector.h(120): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+                 d:\artificial intelligence\bayesian networks\bayesian networks\vector.h(118) : while compiling class template member function 'Vector<Vector<float>>::Vector(unsigned int,const T &)'
+                 with
+                 [
+                     T=Vector<float>
+                 ]
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(1477) : see reference to function template instantiation 'Vector<Vector<float>>::Vector(unsigned int,const T &)' being compiled
+                 with
+                 [
+                     T=Vector<float>
+                 ]
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(21) : see reference to class template instantiation 'Vector<Vector<float>>' being compiled
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\vector.h(123): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\vector.h(100): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+                 d:\artificial intelligence\bayesian networks\bayesian networks\vector.h(98) : while compiling class template member function 'Vector<Vector<float>>::Vector(unsigned int)'
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(1478) : see reference to function template instantiation 'Vector<Vector<float>>::Vector(unsigned int)' being compiled
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(296): warning C4172: returning address of local variable or temporary
+                 d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(274) : while compiling class template member function 'State &LinkedList<State *>::removeLast(void)'
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(744) : see reference to function template instantiation 'State &LinkedList<State *>::removeLast(void)' being compiled
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(683) : see reference to class template instantiation 'LinkedList<State *>' being compiled
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(231): warning C4172: returning address of local variable or temporary
+                 d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(210) : while compiling class template member function 'Vertex &LinkedList<Vertex *>::remove(void)'
+                 d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(338) : see reference to function template instantiation 'Vertex &LinkedList<Vertex *>::remove(void)' being compiled
+                 d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(72) : while compiling class template member function 'LinkedList<Vertex *>::LinkedList(void)'
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(545) : see reference to function template instantiation 'LinkedList<Vertex *>::LinkedList(void)' being compiled
+                 d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(467) : see reference to class template instantiation 'LinkedList<Vertex *>' being compiled
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(262): warning C4172: returning address of local variable or temporary
+                 d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(243) : while compiling class template member function 'Vertex &LinkedList<Vertex *>::removeFirst(void)'
+                 d:\artificial intelligence\bayesian networks\bayesian networks\linkedlist.h(347) : see reference to function template instantiation 'Vertex &LinkedList<Vertex *>::removeFirst(void)' being compiled
+     1>d:\artificial intelligence\bayesian networks\bayesian networks\bayes.h(1809): warning C4715: 'CPD::column' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Artificial Intelligence\Bayesian Networks\Debug\Bayesian Networks.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Artificial Intelligence\Bayesian Networks\Debug\Bayesian Networks.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Artificial Intelligence\Bayesian Networks\Debug\Bayesian Networks.lib" /MACHINE:X86 Debug\main.obj
+         Bayesian Networks.vcxproj -> D:\Artificial Intelligence\Bayesian Networks\Debug\Bayesian Networks.exe
+     1>Done Building Project "D:\Artificial Intelligence\Bayesian Networks\Bayesian Networks\Bayesian Networks.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.35
